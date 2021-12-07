@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_LE8_sFagEey4A6j0-cYzdQ" name="sirets" dataPackage="_LE8_sVagEey4A6j0-cYzdQ" Server="Localhost 127.0.0.1" FilePath="/home/romain/Talend/TOS_DI-20211109_1610-V8.0.1/workspace/siret.csv" Encoding="ISO-8859-15" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" RemoveEmptyRow="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_LE8_sVagEey4A6j0-cYzdQ" name="default" dataManager="_LE8_sFagEey4A6j0-cYzdQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_LE8_slagEey4A6j0-cYzdQ" id="__ne20FafEey4A6j0-cYzdQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_s1agEey4A6j0-cYzdQ" label="siren" length="9" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_tFagEey4A6j0-cYzdQ" label="nic" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_tVagEey4A6j0-cYzdQ" label="siret" length="14" talendType="id_Long" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_tlagEey4A6j0-cYzdQ" label="statutDiffusionEtablissement" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_t1agEey4A6j0-cYzdQ" label="dateCreationEtablissement" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_uFagEey4A6j0-cYzdQ" label="trancheEffectifsEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_uVagEey4A6j0-cYzdQ" label="anneeEffectifsEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_ulagEey4A6j0-cYzdQ" label="activitePrincipaleRegistreMetiersEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_u1agEey4A6j0-cYzdQ" label="dateDernierTraitementEtablissement" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_vFagEey4A6j0-cYzdQ" label="etablissementSiege" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_vVagEey4A6j0-cYzdQ" label="nombrePeriodesEtablissement" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_vlagEey4A6j0-cYzdQ" label="etatAdministratifUniteLegale" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_v1agEey4A6j0-cYzdQ" label="statutDiffusionUniteLegale" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_wFagEey4A6j0-cYzdQ" label="dateCreationUniteLegale" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_wVagEey4A6j0-cYzdQ" label="categorieJuridiqueUniteLegale" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_wlagEey4A6j0-cYzdQ" label="denominationUniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_w1agEey4A6j0-cYzdQ" label="sigleUniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_xFagEey4A6j0-cYzdQ" label="denominationUsuelle1UniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_xVagEey4A6j0-cYzdQ" label="denominationUsuelle2UniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_xlagEey4A6j0-cYzdQ" label="denominationUsuelle3UniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_x1agEey4A6j0-cYzdQ" label="sexeUniteLegale" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_yFagEey4A6j0-cYzdQ" label="nomUniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_yVagEey4A6j0-cYzdQ" label="nomUsageUniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_ylagEey4A6j0-cYzdQ" label="prenom1UniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_y1agEey4A6j0-cYzdQ" label="prenom2UniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_zFagEey4A6j0-cYzdQ" label="prenom3UniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_zVagEey4A6j0-cYzdQ" label="prenom4UniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_zlagEey4A6j0-cYzdQ" label="prenomUsuelUniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_z1agEey4A6j0-cYzdQ" label="pseudonymeUniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_0FagEey4A6j0-cYzdQ" label="activitePrincipaleUniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_0VagEey4A6j0-cYzdQ" label="nomenclatureActivitePrincipaleUniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_0lagEey4A6j0-cYzdQ" label="identifiantAssociationUniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_01agEey4A6j0-cYzdQ" label="economieSocialeSolidaireUniteLegale" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_1FagEey4A6j0-cYzdQ" label="caractereEmployeurUniteLegale" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_1VagEey4A6j0-cYzdQ" label="trancheEffectifsUniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_1lagEey4A6j0-cYzdQ" label="anneeEffectifsUniteLegale" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_11agEey4A6j0-cYzdQ" label="nicSiegeUniteLegale" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_2FagEey4A6j0-cYzdQ" label="dateDernierTraitementUniteLegale" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_2VagEey4A6j0-cYzdQ" label="categorieEntreprise" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_2lagEey4A6j0-cYzdQ" label="anneeCategorieEntreprise" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_21agEey4A6j0-cYzdQ" label="complementAdresseEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_3FagEey4A6j0-cYzdQ" label="numeroVoieEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_3VagEey4A6j0-cYzdQ" label="indiceRepetitionEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_3lagEey4A6j0-cYzdQ" label="typeVoieEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE8_31agEey4A6j0-cYzdQ" label="libelleVoieEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mwFagEey4A6j0-cYzdQ" label="codePostalEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mwVagEey4A6j0-cYzdQ" label="libelleCommuneEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mwlagEey4A6j0-cYzdQ" label="libelleCommuneEtrangerEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mw1agEey4A6j0-cYzdQ" label="distributionSpecialeEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mxFagEey4A6j0-cYzdQ" label="codeCommuneEtablissement" length="550" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mxVagEey4A6j0-cYzdQ" label="codeCedexEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mxlagEey4A6j0-cYzdQ" label="libelleCedexEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mx1agEey4A6j0-cYzdQ" label="codePaysEtrangerEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9myFagEey4A6j0-cYzdQ" label="libellePaysEtrangerEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9myVagEey4A6j0-cYzdQ" label="complementAdresse2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mylagEey4A6j0-cYzdQ" label="numeroVoie2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9my1agEey4A6j0-cYzdQ" label="indiceRepetition2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mzFagEey4A6j0-cYzdQ" label="typeVoie2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mzVagEey4A6j0-cYzdQ" label="libelleVoie2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mzlagEey4A6j0-cYzdQ" label="codePostal2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9mz1agEey4A6j0-cYzdQ" label="libelleCommune2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m0FagEey4A6j0-cYzdQ" label="libelleCommuneEtranger2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m0VagEey4A6j0-cYzdQ" label="distributionSpeciale2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m0lagEey4A6j0-cYzdQ" label="codeCommune2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m01agEey4A6j0-cYzdQ" label="codeCedex2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m1FagEey4A6j0-cYzdQ" label="libelleCedex2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m1VagEey4A6j0-cYzdQ" label="codePaysEtranger2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m1lagEey4A6j0-cYzdQ" label="libellePaysEtranger2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m11agEey4A6j0-cYzdQ" label="dateFin" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m2FagEey4A6j0-cYzdQ" label="dateDebut" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m2VagEey4A6j0-cYzdQ" label="etatAdministratifEtablissement" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m2lagEey4A6j0-cYzdQ" label="changementEtatAdministratifEtablissement" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m21agEey4A6j0-cYzdQ" label="enseigne1Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m3FagEey4A6j0-cYzdQ" label="enseigne2Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m3VagEey4A6j0-cYzdQ" label="enseigne3Etablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m3lagEey4A6j0-cYzdQ" label="changementEnseigneEtablissement" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m31agEey4A6j0-cYzdQ" label="denominationUsuelleEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m4FagEey4A6j0-cYzdQ" label="changementDenominationUsuelleEtablissement" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m4VagEey4A6j0-cYzdQ" label="activitePrincipaleEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m4lagEey4A6j0-cYzdQ" label="nomenclatureActivitePrincipaleEtablissement" length="500" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m41agEey4A6j0-cYzdQ" label="changementActivitePrincipaleEtablissement" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m5FagEey4A6j0-cYzdQ" label="caractereEmployeurEtablissement" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_LE9m5VagEey4A6j0-cYzdQ" label="changementCaractereEmployeurEtablissement" length="5" talendType="id_Boolean" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_mdtWAFafEey4A6j0-cYzdQ" name="psi" id="_fSxZUFafEey4A6j0-cYzdQ" label="psi" dataPackage="_me2lgFafEey4A6j0-cYzdQ" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/epsi?" dbVersionString="V9_X" Port="5432" Username="romain" Password="enc:system.encryption.key.v1:qhD2pcRC5iuNGtGkC5f0e4IEZ8+efNN7on0mLz2hTkUcaQ==" ServerName="localhost" SID="epsi" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="public">
+    <taggedValue xmi:id="_mdvLMFafEey4A6j0-cYzdQ" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_mePhgFafEey4A6j0-cYzdQ" tag="package filter" value=""/>
+    <taggedValue xmi:id="_meeLAFafEey4A6j0-cYzdQ" tag="Status" value=""/>
+    <taggedValue xmi:id="_meeLAVafEey4A6j0-cYzdQ" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_meeLAlafEey4A6j0-cYzdQ" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_meeLA1afEey4A6j0-cYzdQ" tag="Description" value=""/>
+    <taggedValue xmi:id="_meeLBFafEey4A6j0-cYzdQ" tag="Author" value=""/>
+    <taggedValue xmi:id="_meeLBVafEey4A6j0-cYzdQ" tag="otherParameter"/>
+    <taggedValue xmi:id="_memG0FafEey4A6j0-cYzdQ" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_memG0VafEey4A6j0-cYzdQ" tag="DB ProductVersion" value="13.0 (Debian 13.0-1.pgdg100+1)"/>
+    <taggedValue xmi:id="_memG0lafEey4A6j0-cYzdQ" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_mdvLMVafEey4A6j0-cYzdQ" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+    <parameters xmi:id="_mdvLMlafEey4A6j0-cYzdQ" key="CONN_PARA_KEY_USERNAME" value="romain"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_me2lgFafEey4A6j0-cYzdQ" name="epsi" dataManager="_mdtWAFafEey4A6j0-cYzdQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_me3zoFafEey4A6j0-cYzdQ" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

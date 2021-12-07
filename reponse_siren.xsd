@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="statut" type="xs:unsignedByte" />
+              <xs:element name="message" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="uniteLegale">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="siren" type="xs:unsignedInt" />
+              <xs:element name="statutDiffusionUniteLegale" type="xs:string" />
+              <xs:element name="dateCreationUniteLegale" type="xs:date" />
+              <xs:element name="sigleUniteLegale" type="xs:string" />
+              <xs:element name="sexeUniteLegale" type="xs:string" />
+              <xs:element name="prenom1UniteLegale" type="xs:string" />
+              <xs:element name="prenom2UniteLegale" type="xs:string" />
+              <xs:element name="prenom3UniteLegale" type="xs:string" />
+              <xs:element name="prenom4UniteLegale" type="xs:string" />
+              <xs:element name="prenomUsuelUniteLegale" type="xs:string" />
+              <xs:element name="pseudonymeUniteLegale" type="xs:string" />
+              <xs:element name="identifiantAssociationUniteLegale" type="xs:string" />
+              <xs:element name="trancheEffectifsUniteLegale" type="xs:unsignedByte" />
+              <xs:element name="anneeEffectifsUniteLegale" type="xs:unsignedShort" />
+              <xs:element name="dateDernierTraitementUniteLegale" type="xs:dateTime" />
+              <xs:element name="nombrePeriodesUniteLegale" type="xs:unsignedByte" />
+              <xs:element name="categorieEntreprise" type="xs:string" />
+              <xs:element name="anneeCategorieEntreprise" type="xs:unsignedShort" />
+              <xs:element maxOccurs="unbounded" name="periodesUniteLegale">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="dateFin" type="xs:string" />
+                    <xs:element name="dateDebut" type="xs:date" />
+                    <xs:element name="etatAdministratifUniteLegale" type="xs:string" />
+                    <xs:element name="changementEtatAdministratifUniteLegale" type="xs:boolean" />
+                    <xs:element name="nomUniteLegale" type="xs:string" />
+                    <xs:element name="changementNomUniteLegale" type="xs:boolean" />
+                    <xs:element name="nomUsageUniteLegale" type="xs:string" />
+                    <xs:element name="changementNomUsageUniteLegale" type="xs:boolean" />
+                    <xs:element name="denominationUniteLegale" type="xs:string" />
+                    <xs:element name="changementDenominationUniteLegale" type="xs:boolean" />
+                    <xs:element name="denominationUsuelle1UniteLegale" type="xs:string" />
+                    <xs:element name="denominationUsuelle2UniteLegale" type="xs:string" />
+                    <xs:element name="denominationUsuelle3UniteLegale" type="xs:string" />
+                    <xs:element name="changementDenominationUsuelleUniteLegale" type="xs:boolean" />
+                    <xs:element name="categorieJuridiqueUniteLegale" type="xs:unsignedShort" />
+                    <xs:element name="changementCategorieJuridiqueUniteLegale" type="xs:boolean" />
+                    <xs:element name="activitePrincipaleUniteLegale" type="xs:string" />
+                    <xs:element name="nomenclatureActivitePrincipaleUniteLegale" type="xs:string" />
+                    <xs:element name="changementActivitePrincipaleUniteLegale" type="xs:boolean" />
+                    <xs:element name="nicSiegeUniteLegale" type="xs:unsignedByte" />
+                    <xs:element name="changementNicSiegeUniteLegale" type="xs:boolean" />
+                    <xs:element name="economieSocialeSolidaireUniteLegale" type="xs:string" />
+                    <xs:element name="changementEconomieSocialeSolidaireUniteLegale" type="xs:boolean" />
+                    <xs:element name="caractereEmployeurUniteLegale" type="xs:string" />
+                    <xs:element name="changementCaractereEmployeurUniteLegale" type="xs:boolean" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

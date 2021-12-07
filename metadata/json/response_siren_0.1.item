@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendJSON="http://www.talend.org/json" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendJSON:JSONFileConnection xmi:id="_A7s78FQoEey2waVSyp0QxA" name="response_siren" dataPackage="_A7s79FQoEey2waVSyp0QxA" JSONFilePath="/home/romain/Talend/TOS_DI-20211109_1610-V8.0.1/workspace/IIIDATA/response_siren.json" Encoding="UTF-8" readbyMode="JSONPATH">
+    <schema xmi:id="_A7s78VQoEey2waVSyp0QxA" LimitBoucle="50" AbsoluteXPathQuery="$">
+      <schemaTargets xmi:id="_vAmL0FQoEey2waVSyp0QxA" RelativeXPathQuery="header" TagName="header"/>
+      <schemaTargets xmi:id="_vAmL0VQoEey2waVSyp0QxA" RelativeXPathQuery="header.statut" TagName="statut"/>
+      <schemaTargets xmi:id="_vAmL0lQoEey2waVSyp0QxA" RelativeXPathQuery="header.message" TagName="message"/>
+      <schemaTargets xmi:id="_vAmL01QoEey2waVSyp0QxA" RelativeXPathQuery="header.total" TagName="total"/>
+      <schemaTargets xmi:id="_vAmL1FQoEey2waVSyp0QxA" RelativeXPathQuery="header.debut" TagName="debut"/>
+      <schemaTargets xmi:id="_vAmL1VQoEey2waVSyp0QxA" RelativeXPathQuery="header.nombre" TagName="nombre"/>
+      <schemaTargets xmi:id="_vAmL1lQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*]" TagName="unitesLegales___"/>
+      <schemaTargets xmi:id="_vAmL11QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].siren" TagName="siren"/>
+      <schemaTargets xmi:id="_vAmL2FQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].statutDiffusionUniteLegale" TagName="statutDiffusionUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL2VQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].unitePurgeeUniteLegale" TagName="unitePurgeeUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL2lQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].dateCreationUniteLegale" TagName="dateCreationUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL21QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].sigleUniteLegale" TagName="sigleUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL3FQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].sexeUniteLegale" TagName="sexeUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL3VQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].prenom1UniteLegale" TagName="prenom1UniteLegale"/>
+      <schemaTargets xmi:id="_vAmL3lQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].prenom2UniteLegale" TagName="prenom2UniteLegale"/>
+      <schemaTargets xmi:id="_vAmL31QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].prenom3UniteLegale" TagName="prenom3UniteLegale"/>
+      <schemaTargets xmi:id="_vAmL4FQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].prenom4UniteLegale" TagName="prenom4UniteLegale"/>
+      <schemaTargets xmi:id="_vAmL4VQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].prenomUsuelUniteLegale" TagName="prenomUsuelUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL4lQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].pseudonymeUniteLegale" TagName="pseudonymeUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL41QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].identifiantAssociationUniteLegale" TagName="identifiantAssociationUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL5FQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].trancheEffectifsUniteLegale" TagName="trancheEffectifsUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL5VQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].anneeEffectifsUniteLegale" TagName="anneeEffectifsUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL5lQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].dateDernierTraitementUniteLegale" TagName="dateDernierTraitementUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL51QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].nombrePeriodesUniteLegale" TagName="nombrePeriodesUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL6FQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].categorieEntreprise" TagName="categorieEntreprise"/>
+      <schemaTargets xmi:id="_vAmL6VQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].anneeCategorieEntreprise" TagName="anneeCategorieEntreprise"/>
+      <schemaTargets xmi:id="_vAmL6lQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*]" TagName="periodesUniteLegale___"/>
+      <schemaTargets xmi:id="_vAmL61QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].dateFin" TagName="dateFin"/>
+      <schemaTargets xmi:id="_vAmL7FQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].dateDebut" TagName="dateDebut"/>
+      <schemaTargets xmi:id="_vAmL7VQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].etatAdministratifUniteLegale" TagName="etatAdministratifUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL7lQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].changementEtatAdministratifUniteLegale" TagName="changementEtatAdministratifUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL71QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].nomUniteLegale" TagName="nomUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL8FQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].changementNomUniteLegale" TagName="changementNomUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL8VQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].nomUsageUniteLegale" TagName="nomUsageUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL8lQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].changementNomUsageUniteLegale" TagName="changementNomUsageUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL81QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].denominationUniteLegale" TagName="denominationUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL9FQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].changementDenominationUniteLegale" TagName="changementDenominationUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL9VQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].denominationUsuelle1UniteLegale" TagName="denominationUsuelle1UniteLegale"/>
+      <schemaTargets xmi:id="_vAmL9lQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].denominationUsuelle2UniteLegale" TagName="denominationUsuelle2UniteLegale"/>
+      <schemaTargets xmi:id="_vAmL91QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].denominationUsuelle3UniteLegale" TagName="denominationUsuelle3UniteLegale"/>
+      <schemaTargets xmi:id="_vAmL-FQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].changementDenominationUsuelleUniteLegale" TagName="changementDenominationUsuelleUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL-VQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].categorieJuridiqueUniteLegale" TagName="categorieJuridiqueUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL-lQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].changementCategorieJuridiqueUniteLegale" TagName="changementCategorieJuridiqueUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL-1QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].activitePrincipaleUniteLegale" TagName="activitePrincipaleUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL_FQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].nomenclatureActivitePrincipaleUniteLegale" TagName="nomenclatureActivitePrincipaleUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL_VQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].changementActivitePrincipaleUniteLegale" TagName="changementActivitePrincipaleUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL_lQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].nicSiegeUniteLegale" TagName="nicSiegeUniteLegale"/>
+      <schemaTargets xmi:id="_vAmL_1QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].changementNicSiegeUniteLegale" TagName="changementNicSiegeUniteLegale"/>
+      <schemaTargets xmi:id="_vAmMAFQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].economieSocialeSolidaireUniteLegale" TagName="economieSocialeSolidaireUniteLegale"/>
+      <schemaTargets xmi:id="_vAmMAVQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].changementEconomieSocialeSolidaireUniteLegale" TagName="changementEconomieSocialeSolidaireUniteLegale"/>
+      <schemaTargets xmi:id="_vAmMAlQoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].caractereEmployeurUniteLegale" TagName="caractereEmployeurUniteLegale"/>
+      <schemaTargets xmi:id="_vAmMA1QoEey2waVSyp0QxA" RelativeXPathQuery="unitesLegales[*].periodesUniteLegale[*].changementCaractereEmployeurUniteLegale" TagName="changementCaractereEmployeurUniteLegale"/>
+    </schema>
+  </TalendJSON:JSONFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_A7s79FQoEey2waVSyp0QxA" name="default" dataManager="_A7s78FQoEey2waVSyp0QxA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_A7s79VQoEey2waVSyp0QxA" id="_ovWFoFQnEey2waVSyp0QxA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_A7s79lQoEey2waVSyp0QxA" label="header" length="107" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ8FQoEey2waVSyp0QxA" label="statut" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ8VQoEey2waVSyp0QxA" label="message" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ8lQoEey2waVSyp0QxA" label="total" length="8" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ81QoEey2waVSyp0QxA" label="debut" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ9FQoEey2waVSyp0QxA" label="nombre" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_A7s791QoEey2waVSyp0QxA" label="unitesLegales___" length="1640" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ9VQoEey2waVSyp0QxA" label="siren" length="241" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ9lQoEey2waVSyp0QxA" label="statutDiffusionUniteLegale" length="81" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ91QoEey2waVSyp0QxA" label="unitePurgeeUniteLegale" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ-FQoEey2waVSyp0QxA" label="dateCreationUniteLegale" length="221" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ-VQoEey2waVSyp0QxA" label="sigleUniteLegale" length="101" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ-lQoEey2waVSyp0QxA" label="sexeUniteLegale" length="81" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ-1QoEey2waVSyp0QxA" label="prenom1UniteLegale" length="207" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ_FQoEey2waVSyp0QxA" label="prenom2UniteLegale" length="135" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ_VQoEey2waVSyp0QxA" label="prenom3UniteLegale" length="106" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ_lQoEey2waVSyp0QxA" label="prenom4UniteLegale" length="101" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyQ_1QoEey2waVSyp0QxA" label="prenomUsuelUniteLegale" length="207" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRAFQoEey2waVSyp0QxA" label="pseudonymeUniteLegale" length="101" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRAVQoEey2waVSyp0QxA" label="identifiantAssociationUniteLegale" length="101" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRAlQoEey2waVSyp0QxA" label="trancheEffectifsUniteLegale" length="101" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRA1QoEey2waVSyp0QxA" label="anneeEffectifsUniteLegale" length="107" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRBFQoEey2waVSyp0QxA" label="dateDernierTraitementUniteLegale" length="271" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRBVQoEey2waVSyp0QxA" label="nombrePeriodesUniteLegale" length="41" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRBlQoEey2waVSyp0QxA" label="categorieEntreprise" length="104" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRB1QoEey2waVSyp0QxA" label="anneeCategorieEntreprise" length="107" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRCFQoEey2waVSyp0QxA" label="periodesUniteLegale___" length="61145" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRCVQoEey2waVSyp0QxA" label="dateFin" length="660" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRClQoEey2waVSyp0QxA" label="dateDebut" length="812" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRC1QoEey2waVSyp0QxA" label="etatAdministratifUniteLegale" length="263" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRDFQoEey2waVSyp0QxA" label="changementEtatAdministratifUniteLegale" length="358" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRDVQoEey2waVSyp0QxA" label="nomUniteLegale" length="540" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRDlQoEey2waVSyp0QxA" label="changementNomUniteLegale" length="377" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRD1QoEey2waVSyp0QxA" label="nomUsageUniteLegale" length="372" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyREFQoEey2waVSyp0QxA" label="changementNomUsageUniteLegale" length="379" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyREVQoEey2waVSyp0QxA" label="denominationUniteLegale" length="316" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRElQoEey2waVSyp0QxA" label="changementDenominationUniteLegale" length="379" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRE1QoEey2waVSyp0QxA" label="denominationUsuelle1UniteLegale" length="513" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRFFQoEey2waVSyp0QxA" label="denominationUsuelle2UniteLegale" length="316" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRFVQoEey2waVSyp0QxA" label="denominationUsuelle3UniteLegale" length="316" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRFlQoEey2waVSyp0QxA" label="changementDenominationUsuelleUniteLegale" length="378" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRF1QoEey2waVSyp0QxA" label="categorieJuridiqueUniteLegale" length="442" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRGFQoEey2waVSyp0QxA" label="changementCategorieJuridiqueUniteLegale" length="379" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRGVQoEey2waVSyp0QxA" label="activitePrincipaleUniteLegale" length="470" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRGlQoEey2waVSyp0QxA" label="nomenclatureActivitePrincipaleUniteLegale" length="510" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRG1QoEey2waVSyp0QxA" label="changementActivitePrincipaleUniteLegale" length="360" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRHFQoEey2waVSyp0QxA" label="nicSiegeUniteLegale" length="487" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRHVQoEey2waVSyp0QxA" label="changementNicSiegeUniteLegale" length="374" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRHlQoEey2waVSyp0QxA" label="economieSocialeSolidaireUniteLegale" length="316" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRH1QoEey2waVSyp0QxA" label="changementEconomieSocialeSolidaireUniteLegale" length="379" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRIFQoEey2waVSyp0QxA" label="caractereEmployeurUniteLegale" length="264" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2HyRIVQoEey2waVSyp0QxA" label="changementCaractereEmployeurUniteLegale" length="368" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

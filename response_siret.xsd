@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="header">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="statut" type="xs:unsignedByte" />
+              <xs:element name="message" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="etablissement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="siren" type="xs:unsignedInt" />
+              <xs:element name="nic" type="xs:unsignedInt" />
+              <xs:element name="siret" type="xs:unsignedLong" />
+              <xs:element name="statutDiffusionEtablissement" type="xs:string" />
+              <xs:element name="dateCreationEtablissement" type="xs:date" />
+              <xs:element name="trancheEffectifsEtablissement" type="xs:string" />
+              <xs:element name="anneeEffectifsEtablissement" type="xs:string" />
+              <xs:element name="activitePrincipaleRegistreMetiersEtablissement" type="xs:string" />
+              <xs:element name="dateDernierTraitementEtablissement" type="xs:dateTime" />
+              <xs:element name="etablissementSiege" type="xs:boolean" />
+              <xs:element name="nombrePeriodesEtablissement" type="xs:unsignedInt" />
+              <xs:element name="uniteLegale">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="etatAdministratifUniteLegale" type="xs:string" />
+                    <xs:element name="statutDiffusionUniteLegale" type="xs:string" />
+                    <xs:element name="dateCreationUniteLegale" type="xs:date" />
+                    <xs:element name="categorieJuridiqueUniteLegale" type="xs:unsignedLong" />
+                    <xs:element name="denominationUniteLegale" type="xs:string" />
+                    <xs:element name="sigleUniteLegale" type="xs:string" />
+                    <xs:element name="denominationUsuelle1UniteLegale" type="xs:string" />
+                    <xs:element name="denominationUsuelle2UniteLegale" type="xs:string" />
+                    <xs:element name="denominationUsuelle3UniteLegale" type="xs:string" />
+                    <xs:element name="sexeUniteLegale" type="xs:string" />
+                    <xs:element name="nomUniteLegale" type="xs:string" />
+                    <xs:element name="nomUsageUniteLegale" type="xs:string" />
+                    <xs:element name="prenom1UniteLegale" type="xs:string" />
+                    <xs:element name="prenom2UniteLegale" type="xs:string" />
+                    <xs:element name="prenom3UniteLegale" type="xs:string" />
+                    <xs:element name="prenom4UniteLegale" type="xs:string" />
+                    <xs:element name="prenomUsuelUniteLegale" type="xs:string" />
+                    <xs:element name="pseudonymeUniteLegale" type="xs:string" />
+                    <xs:element name="activitePrincipaleUniteLegale" type="xs:string" />
+                    <xs:element name="nomenclatureActivitePrincipaleUniteLegale" type="xs:string" />
+                    <xs:element name="identifiantAssociationUniteLegale" type="xs:string" />
+                    <xs:element name="economieSocialeSolidaireUniteLegale" type="xs:string" />
+                    <xs:element name="caractereEmployeurUniteLegale" type="xs:string" />
+                    <xs:element name="trancheEffectifsUniteLegale" type="xs:string" />
+                    <xs:element name="anneeEffectifsUniteLegale" type="xs:string" />
+                    <xs:element name="nicSiegeUniteLegale" type="xs:unsignedInt" />
+                    <xs:element name="dateDernierTraitementUniteLegale" type="xs:dateTime" />
+                    <xs:element name="categorieEntreprise" type="xs:string" />
+                    <xs:element name="anneeCategorieEntreprise" type="xs:unsignedInt" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="adresseEtablissement">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="complementAdresseEtablissement" type="xs:string" />
+                    <xs:element name="numeroVoieEtablissement" type="xs:string" />
+                    <xs:element name="indiceRepetitionEtablissement" type="xs:string" />
+                    <xs:element name="typeVoieEtablissement" type="xs:string" />
+                    <xs:element name="libelleVoieEtablissement" type="xs:string" />
+                    <xs:element name="codePostalEtablissement" type="xs:string" />
+                    <xs:element name="libelleCommuneEtablissement" type="xs:string" />
+                    <xs:element name="libelleCommuneEtrangerEtablissement" type="xs:string" />
+                    <xs:element name="distributionSpecialeEtablissement" type="xs:string" />
+                    <xs:element name="codeCommuneEtablissement" type="xs:string" />
+                    <xs:element name="codeCedexEtablissement" type="xs:string" />
+                    <xs:element name="libelleCedexEtablissement" type="xs:string" />
+                    <xs:element name="codePaysEtrangerEtablissement" type="xs:string" />
+                    <xs:element name="libellePaysEtrangerEtablissement" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="adresse2Etablissement">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="complementAdresse2Etablissement" type="xs:string" />
+                    <xs:element name="numeroVoie2Etablissement" type="xs:string" />
+                    <xs:element name="indiceRepetition2Etablissement" type="xs:string" />
+                    <xs:element name="typeVoie2Etablissement" type="xs:string" />
+                    <xs:element name="libelleVoie2Etablissement" type="xs:string" />
+                    <xs:element name="codePostal2Etablissement" type="xs:string" />
+                    <xs:element name="libelleCommune2Etablissement" type="xs:string" />
+                    <xs:element name="libelleCommuneEtranger2Etablissement" type="xs:string" />
+                    <xs:element name="distributionSpeciale2Etablissement" type="xs:string" />
+                    <xs:element name="codeCommune2Etablissement" type="xs:string" />
+                    <xs:element name="codeCedex2Etablissement" type="xs:string" />
+                    <xs:element name="libelleCedex2Etablissement" type="xs:string" />
+                    <xs:element name="codePaysEtranger2Etablissement" type="xs:string" />
+                    <xs:element name="libellePaysEtranger2Etablissement" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element maxOccurs="unbounded" name="periodesEtablissement">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="dateFin" type="xs:string" />
+                    <xs:element name="dateDebut" type="xs:date" />
+                    <xs:element name="etatAdministratifEtablissement" type="xs:string" />
+                    <xs:element name="changementEtatAdministratifEtablissement" type="xs:boolean" />
+                    <xs:element name="enseigne1Etablissement" type="xs:string" />
+                    <xs:element name="enseigne2Etablissement" type="xs:string" />
+                    <xs:element name="enseigne3Etablissement" type="xs:string" />
+                    <xs:element name="changementEnseigneEtablissement" type="xs:boolean" />
+                    <xs:element name="denominationUsuelleEtablissement" type="xs:string" />
+                    <xs:element name="changementDenominationUsuelleEtablissement" type="xs:boolean" />
+                    <xs:element name="activitePrincipaleEtablissement" type="xs:string" />
+                    <xs:element name="nomenclatureActivitePrincipaleEtablissement" type="xs:string" />
+                    <xs:element name="changementActivitePrincipaleEtablissement" type="xs:boolean" />
+                    <xs:element name="caractereEmployeurEtablissement" type="xs:string" />
+                    <xs:element name="changementCaractereEmployeurEtablissement" type="xs:boolean" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
