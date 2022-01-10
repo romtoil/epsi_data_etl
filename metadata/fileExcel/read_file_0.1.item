@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_EnbkgVz0EeynUOkvxh9Qqg" name="read_file" dataPackage="_Enbkglz0EeynUOkvxh9Qqg" Server="Localhost 127.0.0.1" FilePath="/home/romain/Talend/TOS_DI-20211109_1610-V8.0.1/workspace/IIIDATA/Projet_de_reprise_Client_Zen.xlsx" Encoding="ISO-8859-15" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" SheetName="Projet de reprise Client Zen" firstColumn="1" lastColumn="" thousandSeparator="," decimalSeparator="." selectAllSheets="true" sheetList="Projet de reprise Client Zen:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+    <sheetColumns>O</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Enbkglz0EeynUOkvxh9Qqg" name="default" dataManager="_EnbkgVz0EeynUOkvxh9Qqg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Enbkg1z0EeynUOkvxh9Qqg" id="_1BDFgFzzEeynUOkvxh9Qqg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EnbkhFz0EeynUOkvxh9Qqg" label="ID" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EnbkhVz0EeynUOkvxh9Qqg" label="Metier" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Enbkhlz0EeynUOkvxh9Qqg" label="Code_COMPTA" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Enbkh1z0EeynUOkvxh9Qqg" label="NOMS_CLIENTS" length="43" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EnbkiFz0EeynUOkvxh9Qqg" label="SIREN_SIRET" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EnbkiVz0EeynUOkvxh9Qqg" label="CODE_FACTU" length="33" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Enbkilz0EeynUOkvxh9Qqg" label="ADRESSE_FACTU" length="139" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Enbki1z0EeynUOkvxh9Qqg" label="CP" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EnbkjFz0EeynUOkvxh9Qqg" label="VILLE" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EnbkjVz0EeynUOkvxh9Qqg" label="PAYS" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Enbkjlz0EeynUOkvxh9Qqg" label="CONTACT_GENRE" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Enbkj1z0EeynUOkvxh9Qqg" label="CONTACT_NOM" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EnbkkFz0EeynUOkvxh9Qqg" label="CONTACT_PRENOM" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EnbkkVz0EeynUOkvxh9Qqg" label="CONTACT1_MAIL" length="36" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Enbkklz0EeynUOkvxh9Qqg" label="CONTACT1_TEL_FIXE" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
